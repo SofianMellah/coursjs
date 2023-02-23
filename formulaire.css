@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    text-shadow: 3px 5px 2px #CECECE;
+}
+body{
+    background:url(/Paysage.jpg);
+    background-size: cover;
+}
+form{
+    border-style: groove;
+    border-color: rgb(148, 148, 148);
+    border-radius: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.form1{
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 30%;
+    color:white;
+    display: flex;
+    position: absolute;
+}
+.form2{
+    margin-top: 7.5%;
+    margin-left: 60%;
+    width: 30%;
+    color:white;
+    display: flex;
+    
+}

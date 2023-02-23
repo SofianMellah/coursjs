@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tableau.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <table class="customTable">
+        <thead>
+          <tr>
+            <th>Consommateur</th>
+            <th>Kebab</th>
+            <th>Kefta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Rafik</th>
+            <td class="kebab1"><input type="text" value="10"></td>
+            <td class="kefta1"><input type="text" value="22"></td>
+          </tr>
+          <tr>
+            <th>Latouchette</th>
+            <td class="kebab2"><input type="text" value="2"></td>
+            <td class="kefta2"><input type="text" value="45"></td>
+          </tr>
+          <tr>
+            <th>Mehdi</th>
+            <td class="kebab3"><input type="text" value="75"></td>
+            <td class="kefta3"><input type="text" value="12"></td>
+          </tr>
+          <tr>
+            <th >Total</th>
+            <td class="totalKebab"></td>
+            <td class="totalKefta"></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <div>
+    <Button class="kebab" onclick=totalkebab()>Résultats Kebab</Button>
+    <Button class="kefta" onclick=totalkefta()>Résultats Kefta</Button>
+    </div>
+    <script src="./tableau.js"></script>
+</body>
+</html>
